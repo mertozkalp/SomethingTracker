@@ -18,6 +18,21 @@ A normal official port can use the original source code and supported developmen
 
 Project names do not always distinguish these methods precisely. Leonida describes itself as static recompilation but much of its CPU design is native execution with a replacement runtime.
 
+### Platform comparison
+
+```mermaid
+flowchart LR
+    X[Xbox Series] --> A[Console API compatibility]
+    P[PS5] --> B[Relinker and system libraries]
+    A --> C[Host CPU]
+    B --> C
+    A --> D[Host graphics backend]
+    B --> D
+    D --> E[Vulkan or desktop D3D12]
+```
+
+Conceptual comparison; individual implementations differ.
+
 ## 3. The layers
 
 ```mermaid
@@ -51,6 +66,18 @@ A shader is a small GPU program used in rendering or computation. Console-native
 
 Translation success, structural validation, driver pipeline creation and correct execution are four different milestones. A validated shader may produce incorrect results. Wave64 versus wave32 execution is one example: operations across lanes can have different semantics unless translated correctly. Tests with synthetic data and known reference outputs help identify such defects without using commercial game material.
 
+### Shader validation stages
+
+```mermaid
+flowchart LR
+    A[GPU program] --> B[Translation]
+    B --> C[Structural validation]
+    C --> D[Driver pipeline]
+    D --> E[Reference output comparison]
+```
+
+Passing one stage does not establish correctness at the next.
+
 ### Resources and streaming
 
 Textures, models and audio have their own representations. A runtime must handle data layout, decompression, memory lifetime and asynchronous streaming correctly. A standalone asset viewer demonstrates a particular data-reading capability, not a functional game runtime. This repository does not distribute assets or instructions for extracting protected files.
@@ -79,6 +106,18 @@ Examples of safe work without proprietary game files include synthetic shader te
 
 A good issue contains the upstream commit, operating system, compiler, GPU and driver if relevant, observed behavior, expected behavior, minimal legal reproduction and sanitized logs. It distinguishes a failure from an unsupported or untested case.
 
+### Contribution workflow
+
+```mermaid
+flowchart LR
+    A[Read issue] --> B[Coordinate task]
+    B --> C[Synthetic test]
+    C --> D[Patch]
+    D --> E[Review and CI]
+    E --> F[Merge]
+    E -->|Changes needed| D
+```
+
 ## 6. What progress actually means
 
 | Milestone | Evidence to request |
@@ -93,6 +132,19 @@ A good issue contains the upstream commit, operating system, compiler, GPU and d
 | Gameplay works | Sustained interaction, audio, input, saves and stability |
 
 These milestones are not percentages of a completed port. They may overlap, regress or differ between hardware configurations. An FPS figure from a menu is not gameplay performance. A screenshot without provenance is weak evidence.
+
+### Evidence ladder
+
+```mermaid
+flowchart TD
+    A[Build and synthetic tests] --> B[Shader correctness]
+    B --> C[Application initialization]
+    C --> D[Menu rendering]
+    D --> E[World rendering]
+    E --> F[Sustained gameplay]
+```
+
+Illustrative milestones, not a universal sequence or completion percentage.
 
 ## 7. What SomethingTracker measures
 
