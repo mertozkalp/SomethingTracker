@@ -6,6 +6,8 @@ A list of GTA VI PC port attempts, related console runtimes and research tools.
 
 The list includes reported attempts, not confirmed working ports. Some entries may be forks or inactive projects. Detailed descriptions checked on 2026-11-24 are based on upstream READMEs; entries without a direct review are explicitly marked. No third-party game executable was tested.
 
+![Catalog breakdown](assets/catalog.svg)
+
 ## Contents
 
 - [PC port attempts](#pc-port-attempts)
