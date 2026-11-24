@@ -1,11 +1,28 @@
-# SomethingTracker | GTA VI PC Port Watch
+<p align="center"><img src="assets/banner.svg" alt="SomethingTracker community research index" width="100%"></p>
+
+<p align="center">
+<a href="https://github.com/mertozkalp/SomethingTracker/actions/workflows/update-status.yml"><img alt="Workflow status" src="https://github.com/mertozkalp/SomethingTracker/actions/workflows/update-status.yml/badge.svg"></a>
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/mertozkalp/SomethingTracker?style=flat-square&amp;color=a78bfa">
+<img alt="Last commit" src="https://img.shields.io/github/last-commit/mertozkalp/SomethingTracker?style=flat-square&amp;color=22d3ee">
+<img alt="Tracked projects" src="https://img.shields.io/badge/tracked_projects-36-8b5cf6?style=flat-square">
+</p>
+
+<p align="center"><a href="STATUS.md"><b>Activity dashboard</b></a> · <a href="#projects"><b>Project index</b></a> · <a href="METHODOLOGY.md">Methodology</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
+
+## At a glance
+
+| 🎮 Game-specific attempts | ⚙️ Runtime research | 📦 Asset research | 📡 Trackers |
+| :---: | :---: | :---: | :---: |
+| **10** | **15** | **5** | **6** |
+
+> Counts are catalog entries, not independent teams or working ports. See the [activity dashboard](STATUS.md) for public repository metadata.
 
 **Community project directory and activity tracker, prepared for GitHub user `mertozkalp` (Mear).**
 
 > [!IMPORTANT]
 > This repository does **not** provide GTA VI, leaked game files, executable downloads, decryption keys, piracy instructions, or a verified playable PC build. Activity in a GitHub repository is not evidence that the game can boot or run.
 
-## Quick navigation
+## Navigation
 
 - [Public repository links](#projects)
 - [Automatically refreshed repository activity](STATUS.md)
