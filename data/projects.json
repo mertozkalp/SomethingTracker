@@ -1,0 +1,146 @@
+[
+  {
+    "repo": "ubiquitarianism/leonida",
+    "category": "pc-port"
+  },
+  {
+    "repo": "LeonidaReforge/Leonida",
+    "category": "pc-port"
+  },
+  {
+    "repo": "luizwidmer/palmetto",
+    "category": "pc-port"
+  },
+  {
+    "repo": "pixl27/ProjectReCity",
+    "category": "pc-port"
+  },
+  {
+    "repo": "Marvisak/VIctory",
+    "category": "pc-port"
+  },
+  {
+    "repo": "JamesCicada/GTAVI-Recomp",
+    "category": "pc-port"
+  },
+  {
+    "repo": "SailmakerEnhance/Leonida",
+    "category": "pc-port"
+  },
+  {
+    "repo": "ThatRecompDev/five-star-recomp",
+    "category": "pc-port"
+  },
+  {
+    "repo": "Kajcsi/G6Recomp",
+    "category": "pc-port"
+  },
+  {
+    "repo": "OnlyMoisties/GTA6-BootTest",
+    "category": "pc-port"
+  },
+  {
+    "repo": "R0Y00/Xbox2Windows",
+    "category": "runtime"
+  },
+  {
+    "repo": "ivall/xcl",
+    "category": "runtime"
+  },
+  {
+    "repo": "omonkeyz/xbox-emulator",
+    "category": "runtime"
+  },
+  {
+    "repo": "drycheetah84/TomBox",
+    "category": "runtime"
+  },
+  {
+    "repo": "californiaAlmonds/OpenScarlett",
+    "category": "runtime"
+  },
+  {
+    "repo": "Freminet/ScarlettX",
+    "category": "runtime"
+  },
+  {
+    "repo": "sammwyy/xvalkyrie",
+    "category": "runtime"
+  },
+  {
+    "repo": "brcly/TuxBox",
+    "category": "runtime"
+  },
+  {
+    "repo": "rpatty-dev/PercyScarlett",
+    "category": "runtime"
+  },
+  {
+    "repo": "OpenCommunityEdition/OpenScarlett",
+    "category": "runtime"
+  },
+  {
+    "repo": "LooperSalty/AnyXboxX",
+    "category": "runtime"
+  },
+  {
+    "repo": "Dark3581/AnyBox",
+    "category": "runtime"
+  },
+  {
+    "repo": "puffnfresh/rebox",
+    "category": "runtime"
+  },
+  {
+    "repo": "jadeowaowa/scarlett-layer",
+    "category": "runtime"
+  },
+  {
+    "repo": "boykopovar/AnyPS5",
+    "category": "runtime"
+  },
+  {
+    "repo": "rpatty-dev/PercyStar",
+    "category": "assets"
+  },
+  {
+    "repo": "holdmysocks/SixNG",
+    "category": "assets"
+  },
+  {
+    "repo": "Ahmet-Dedeler/Percy6Stars",
+    "category": "assets"
+  },
+  {
+    "repo": "DesignWithTommy/6to5m",
+    "category": "assets"
+  },
+  {
+    "repo": "Ahmet-Dedeler/bcpack-rs",
+    "category": "assets"
+  },
+  {
+    "repo": "fishingpvalues/gta6-pc-port-hub",
+    "category": "tracking"
+  },
+  {
+    "repo": "4lwayz/portwatch-vi",
+    "category": "tracking"
+  },
+  {
+    "repo": "hubby121/portwatch-vi",
+    "category": "tracking"
+  },
+  {
+    "repo": "alan-r-henry/gta6-pc-tracker",
+    "category": "tracking"
+  },
+  {
+    "repo": "pagiii/gta6-tracker",
+    "category": "tracking"
+  },
+  {
+    "repo": "Ahmet-Dedeler/awesome-gta6-reverse-engineering",
+    "category": "tracking"
+  }
+]
